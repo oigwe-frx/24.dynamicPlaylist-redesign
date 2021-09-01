@@ -1,0 +1,286 @@
+/* --- UNIVERSAL --- */
+
+html {
+    font-size: 62.5%;
+}
+body {
+	background-color: #000;
+	background-image: url("https://ak9.picdn.net/shutterstock/videos/27626059/thumb/1.jpg");
+	opacity: 1;
+	color: white;
+    height: 100%;
+    width: 100%;
+    /* Start http://www.cursors-4u.com */ cursor: url(http://cur.cursors-4u.net/cursors/cur-7/cur686.cur), auto !important; /* End http://www.cursors-4u.com */
+}
+button {
+	background-color: transparent;
+}
+p {
+	font-family: "News Cycle", sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+/* --- MAIN CONTAINER ---*/
+.container{
+	background-color: black;
+	border: .3rem double white;
+}
+.stars {
+	background:black url(http://www.pngmart.com/files/3/Star-PNG-Pic.png) repeat;
+	z-index:0;
+}
+.twinkling{
+	background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+	z-index:1;
+	-moz-animation:move-twink-back 800s linear infinite;
+	-ms-animation:move-twink-back 800s linear infinite;
+	-o-animation:move-twink-back 800s linear infinite;
+	-webkit-animation:move-twink-back 800s linear infinite;
+	animation:move-twink-back 800s linear infinite;
+}
+
+
+/*--- HEADER ---*/
+
+header {
+    height: fit-content;
+    margin: 5% 0;
+    align-content: center;
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+h1 {
+	font-family: "Orbitron", sans-serif;
+    font-size: 5rem;
+    width: 100%;
+}
+input[type=search]{
+	border: .3rem solid cornflowerblue;
+	border-radius: 1rem;
+	width: 50%;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.clouds{
+	background:transparent url(./assets/purplecloud.png) repeat top center;
+	z-index:0;
+	-moz-animation:move-clouds-back 800s linear infinite;
+	-ms-animation:move-clouds-back 800s linear infinite;
+	-o-animation:move-clouds-back 800s linear infinite;
+	-webkit-animation:move-clouds-back 800s linear infinite;
+	animation:move-clouds-back 800s linear infinite;
+}
+
+
+.stars, .twinkling, .clouds .lines {
+	top:5rem;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	display:block;
+}
+
+/* --- PLAYLIST --- */
+
+h2 {
+    position:absolute;
+    left: -999px;  /*Goal: Visually Remove But Readable by Screen Readers*/
+}
+
+section {
+    padding: 5%;
+    position: relative;
+    overflow: scroll;
+    display: inline-flex;
+    align-content: center;
+    text-align: center;
+}
+
+
+/* --- PLAYLIST: POSTER  --- */
+/* --- POSTER REFERS TO THE THUMBNAIL THAT IS CLICKED ON THAT LEADS TO THE GENERATION OF THE AUDIO HTML --- */
+.poster-holder .play-btn {
+	width:100%;
+	height:auto;
+  }
+
+  a.poster {
+	float: left;
+	position: relative;
+  }
+
+  a.poster span {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 50%;
+	margin-left: -25%;
+	top: 50%;
+	margin-top: -25%;
+  }
+
+.poster:hover{
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.poster-img {
+	width: 100%;
+}
+
+
+/* --- PLAYLIST: ROW CONTAINER --- */
+.row {
+	margin: 2rem 0;
+	padding: 1re,;
+}
+
+.row:hover {
+	background-color: rgba(6, 23, 76, 0.466);
+}
+
+
+/* --- PLAYLIST: SONG DESCRIPTION --- */
+
+.song-info {
+    margin: auto 0 ;
+}
+.song-name {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+.song-album{
+    font-size: 1.35rem;
+    font-style: italic;
+	border-bottom: 1px solid white;
+}
+.song-artists {
+	font-size: 1.2rem;
+	color: rgba(255, 255, 255, 0.4);
+	line-height: 1rem;
+}
+
+
+
+/* --- MODAL ---*/
+
+.close {
+    color: #FFF !important;
+    opacity: 1;
+}
+.modal-content {
+    background-color: transparent;
+    height: fit-content;
+}
+
+
+
+
+/* --- ANIMATION --- */
+/* --- ANIMATION CONTROLS THE MOVING CLOUD IN THE HEADER AND THE TWINKLING STARS --- */
+
+@keyframes move-twink-back {
+	from {
+		background-position:0 0;
+	}
+	to {
+		background-position:-10000px 5000px;
+	}
+}
+@-webkit-keyframes move-twink-back {
+	from {
+		background-position:0 0;
+	}
+	to {
+		background-position:-10000px 5000px;
+	}
+}
+@-moz-keyframes move-twink-back {
+	from {
+		background-position:0 0;
+	}
+	to {
+		background-position:-10000px 5000px;
+	}
+}
+@-ms-keyframes move-twink-back {
+	from {
+		background-position:0 0;
+	}
+	to {
+		background-position:-10000px 5000px;
+	}
+}
+@keyframes move-clouds-back {
+	from {
+		background-position:0 0;
+	}
+	to {
+		background-position:10000px 0;
+	}
+}
+@-webkit-keyframes move-clouds-back {
+	from {
+		background-position:0 0;
+	}
+	to {
+		background-position:10000px 0;
+	}
+}
+@-moz-keyframes move-clouds-back {
+	from {
+		background-position:0 0;
+	}
+	to {
+		background-position:10000px 0;
+	}
+}
+@-ms-keyframes move-clouds-back {
+	from {
+		background-position: 0;
+	}
+	to {
+		background-position:10000px 0;
+	}
+}
+@keyframes move-lines-back {
+	from {
+		background-position:0 0;
+	}
+	to {
+		background-position:-10000px 5000px;
+	}
+}
+@-webkit-keyframes move-lines-back {
+	from {
+		background-position:0 0;
+	}
+	to {
+		background-position:-10000px 5000px;
+	}
+}
+@-moz-keyframes move-lines-back {
+	from {
+		background-position:0 0;
+	}
+	to {
+		background-position:-10000px 5000px;
+	}
+}
+@-ms-keyframes move-lines-back {
+	from {
+		background-position:0 0;
+	}
+	to {
+		background-position:-10000px 5000px;
+	}
+}
+
+
