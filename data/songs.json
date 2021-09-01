@@ -120,7 +120,7 @@
             "audio": "./assets/music/BlackShipTensionGoodbyeMarlenaShortCurtain.mp3"
         },
         {
-            "number": 12,
+            "number": 13,
             "name": "Strange Boom / Decker Takes Over",
             "album": "Star Trek: Volume 2 - Doomsday Machine and Amok Time",
             "composer": [
@@ -131,7 +131,7 @@
             "audio": "./assets/music/06StrangeBoomDeckerTakesOver.mp3"
         },
         {
-            "number": 13,
+            "number": 14,
             "name": "Goodbye Mr. Decker",
             "album": "Star Trek: Volume 2 - Doomsday Machine and Amok Time",
             "composer": [
