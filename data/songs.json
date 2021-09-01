@@ -10,7 +10,7 @@
                 "Gerald Fried",
                 "Alexander Courage"
             ],
-            "audio": "/assets/music/OriginalSeriesMainTitle.mp3"
+            "audio": "./assets/music/OriginalSeriesMainTitle.mp3"
         },
         {
             "number": 2,
