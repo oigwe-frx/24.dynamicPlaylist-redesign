@@ -1,0 +1,145 @@
+{
+    "name": "Soundtrack Star Trek",
+    "description": "The Musical Compositions That Influenced A Generation",
+    "songs": [
+        {
+            "number": 1,
+            "name": "Main Title",
+            "album": "Star Trek: The Motion Picture",
+            "composer": [
+                "Gerald Fried",
+                "Alexander Courage"
+            ],
+            "audio": "/assets/music/OriginalSeriesMainTitle.mp3"
+        },
+        {
+            "number": 2,
+            "name": "Old English",
+            "album": "Star Trek: Volume 3 - Shore Leave and The Naked Time",
+            "composer": [
+                "Gerald Fried",
+                "Alexander Courage"
+            ],
+            "audio": "/assets/music/03oldEnglish.mp3"
+        },
+        {
+            "number": 3,
+            "name": "Knight Joust",
+            "album": "Star Trek: Volume 3 - Shore Leave and The Naked Time",
+            "composer": [
+                "Gerald Fried",
+                "Alexander Courage"
+            ],
+            "audio": "/assets/music/05knightjoust.mp3"
+        },
+ 
+        {
+            "number": 4,
+            "name": "Silvery Orbs",
+            "album": "Star Trek: Volume 1 - The Cage and Where No Man Has Gone Before",
+            "composer": [
+                "Alexander Courage"
+            ],
+            "audio": "/assets/music/05SilveryOrbs.mp3"
+        },
+        {
+            "number": 5,
+            "name": "Vena's Dance",
+            "album": "Star Trek: Volume 1 - The Cage and Where No Man Has Gone Before",
+            "composer": [
+                "Alexander Courage"
+            ],
+            "audio": "/assets/music/15Vena'sDance.mp3"
+        },
+        {
+            "number": 6,
+            "name": "To Catch a T.",
+            "album": "Star Trek: Volume 1 - The Cage and Where No Man Has Gone Before",
+            "composer": [
+                "Alexander Courage"
+            ],
+            "audio": "/assets/music/20ToCatchAT.mp3"
+        },
+        {
+            "number": 7,
+            "name": "Instance Paradise",
+            "album": "Star Trek: Volume 1 - The Cage and Where No Man Has Gone Before",
+            "composer": [
+                "Alexander Courage"
+            ],
+            "audio": "/assets/music/10InstantParadise.mp3"
+        },
+        {
+            "number": 8,
+            "name": "The Corbomite Maneuver: Radiation / Cube Radiation / Baby Balok",
+            "album": "Star Trek, Vol. 1 (Original Television Scores)",
+            "composer": [
+                "Fred Steiner"
+            ],
+            "audio": "/assets/music/RadiationCubeRadiationBabyBalok.mp3"
+        },
+        {
+            "number": 9,
+            "name": "Suite from the Balance of Terror",
+            "album": "Star Trek: The Best of Star Trek Volume 2",
+            "composer": [
+                "Fred Steiner"
+            ],
+            "audio": "/assets/music/RomulanWarshipRomulanThemeCenturion.mp3"
+        },
+        {
+            "number": 10,
+            "name": "The Processional",
+            "album": "Star Trek: Volume 2 - Doomsday Machine and Amok Time",
+            "composer": [
+                "Alexander Courage",
+                "Gerald Fried",
+                "Bob Karlan"
+            ],
+            "audio": "/assets/music/TheProcessional.mp3"
+        },
+        {
+            "number": 11,
+            "name": "Vulcan",
+            "album": "Star Trek: Volume 2 - Doomsday Machine and Amok Time",
+            "composer": [
+                "Alexander Courage",
+                "Gerald Fried",
+                "Bob Karlan"
+            ],
+            "audio": "/assets/music/Vulcan.mp4"
+        },
+        {
+            
+            "number": 12,
+            "name": "Black Ship Tension / Goodbye Marlena / Short Curtain",
+            "album": "Star Trek, Vol. 2 (Original Television Scores)",
+            "composer": [
+                "Fred Steiner"
+            ],
+            "audio": "/assets/music/BlackShipTensionGoodbyeMarlenaShortCurtain.mp3"
+        },
+        {
+            "number": 12,
+            "name": "Strange Boom / Decker Takes Over",
+            "album": "Star Trek: Volume 2 - Doomsday Machine and Amok Time",
+            "composer": [
+                "Alexander Courage",
+                "Gerald Fried",
+                "Bob Karlan"
+            ],
+            "audio": "/assets/music/06StrangeBoomDeckerTakesOver.mp3"
+        },
+        {
+            "number": 13,
+            "name": "Goodbye Mr. Decker",
+            "album": "Star Trek: Volume 2 - Doomsday Machine and Amok Time",
+            "composer": [
+                "Alexander Courage",
+                "Gerald Fried",
+                "Bob Karlan"
+            ],
+            "audio": "/assets/music/10GoodbyeMr.Decker.mp3"
+        }
+    ]
+}
