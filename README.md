@@ -4,10 +4,13 @@
 To dynamically populate a webpage, using a javascript object, so the user can see and search for any of the songs in a playlist. 
 
 ## Project Results: Preview
-![alt-text](playlistDemoVid.gif)
 
-## Example Goal (provided by teaching staff):
-![final](spotify_playlist_final.png)
+### Redesign
+![Redesign](starTrek%20-%20redesign%20-%20v2.0.gif)
+
+### Design v1.0
+
+![Design v1.0](playlistDemoVid.gif)
 
 
 
